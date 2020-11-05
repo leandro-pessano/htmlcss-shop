@@ -18,4 +18,21 @@
 
 .product {
   display: inline-block;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+
+.heart {
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  text-align: center;
+  font-size: 38px;
+  color: red;
 }
