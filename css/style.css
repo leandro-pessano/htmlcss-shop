@@ -15,3 +15,7 @@
   margin-bottom: 20px;
   background-color: lightgrey;
 }
+
+.product {
+  display: inline-block;
+}
