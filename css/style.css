@@ -4,14 +4,25 @@
   padding: 0;
 }
 
+.product:nth-child(even) .discount {
+  background-color: red;
+}
+
+.product:hover .heart {
+  display: block;
+}
+
+/* Main */
 .container {
   margin: 10px;
+  text-align: center;
 }
 
 .row {
   margin-bottom: 20px;
 }
 
+/* Product */
 .product {
   display: inline-block;
   position: relative;
@@ -25,14 +36,11 @@
 }
 
 .heart {
+  display: none;
   position: absolute;
   bottom: 2%;
   width: 100%;
   text-align: center;
   font-size: 38px;
   color: red;
-}
-
-.product:nth-child(even) .discount {
-  background-color: red;
 }
